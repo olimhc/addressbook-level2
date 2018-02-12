@@ -6,7 +6,7 @@ package seedu.addressbook.data.person;
 public class Contact {
     protected boolean isPrivate;
     public String value;
-    public static String CONTACT_VALIDATION_REGEX = "";
+    public static String CONTACT_VALIDATION_REGEX = ""; //to be overwritten in sub-class
 
 
     public Contact(boolean isPrivate){
