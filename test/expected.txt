@@ -200,14 +200,22 @@
 || Enter command: || [Command entered:  viewall 5]
 || Viewing person: Esther Potato Phone: 555555 Email: esther@not.a.real.potato Address: (private) 555, epsilon street Tags: [tubers][starchy]
 || ===================================================
+|| Enter command: || [Command entered:  add apple Pie p/99 e/a@p.com a/123 apple street]
+|| New person added: apple Pie Phone: 99 Email: a@p.com Address: 123 apple street Tags: 
+|| ===================================================
+|| Enter command: || [Command entered:  add Apple Pie p/991 e/a@u.com a/124 pie street]
+|| New person added: Apple Pie Phone: 991 Email: a@u.com Address: 124 pie street Tags: 
+|| ===================================================
 || Enter command: || [Command entered:  sort]
 || 	1. Adam Brown Phone: 111111 Email: adam@gmail.com Address: 111, alpha street Tags: 
-|| 	2. Betsy Choo Tags: [secretive]
-|| 	3. Charlie Dickson Email: charlie.d@nus.edu.sg Address: 333, gamma street Tags: [school][friends]
-|| 	4. Dickson Ee Phone: 444444 Address: 444, delta street Tags: [friends]
-|| 	5. Esther Potato Phone: 555555 Email: esther@not.a.real.potato Tags: [tubers][starchy]
+|| 	2. apple Pie Phone: 99 Email: a@p.com Address: 123 apple street Tags: 
+|| 	3. Apple Pie Phone: 991 Email: a@u.com Address: 124 pie street Tags: 
+|| 	4. Betsy Choo Tags: [secretive]
+|| 	5. Charlie Dickson Email: charlie.d@nus.edu.sg Address: 333, gamma street Tags: [school][friends]
+|| 	6. Dickson Ee Phone: 444444 Address: 444, delta street Tags: [friends]
+|| 	7. Esther Potato Phone: 555555 Email: esther@not.a.real.potato Tags: [tubers][starchy]
 || 
-|| 5 persons listed!
+|| 7 persons listed!
 || ===================================================
 || Enter command: || [Command entered:  find]
 || Invalid command format! 
@@ -279,8 +287,10 @@
 || 	2. Betsy Choo Tags: [secretive]
 || 	3. Dickson Ee Phone: 444444 Address: 444, delta street Tags: [friends]
 || 	4. Esther Potato Phone: 555555 Email: esther@not.a.real.potato Tags: [tubers][starchy]
+|| 	5. apple Pie Phone: 99 Email: a@p.com Address: 123 apple street Tags: 
+|| 	6. Apple Pie Phone: 991 Email: a@u.com Address: 124 pie street Tags: 
 || 
-|| 4 persons listed!
+|| 6 persons listed!
 || ===================================================
 || Enter command: || [Command entered:  delete 4]
 || Deleted Person: Esther Potato Phone: 555555 Email: esther@not.a.real.potato Address: (private) 555, epsilon street Tags: [tubers][starchy]
@@ -289,8 +299,10 @@
 || 	1. Adam Brown Phone: 111111 Email: adam@gmail.com Address: 111, alpha street Tags: 
 || 	2. Betsy Choo Tags: [secretive]
 || 	3. Dickson Ee Phone: 444444 Address: 444, delta street Tags: [friends]
+|| 	4. apple Pie Phone: 99 Email: a@p.com Address: 123 apple street Tags: 
+|| 	5. Apple Pie Phone: 991 Email: a@u.com Address: 124 pie street Tags: 
 || 
-|| 3 persons listed!
+|| 5 persons listed!
 || ===================================================
 || Enter command: || [Command entered:  delete 1]
 || Deleted Person: Adam Brown Phone: 111111 Email: adam@gmail.com Address: 111, alpha street Tags: 
@@ -298,8 +310,10 @@
 || Enter command: || [Command entered:  list]
 || 	1. Betsy Choo Tags: [secretive]
 || 	2. Dickson Ee Phone: 444444 Address: 444, delta street Tags: [friends]
+|| 	3. apple Pie Phone: 99 Email: a@p.com Address: 123 apple street Tags: 
+|| 	4. Apple Pie Phone: 991 Email: a@u.com Address: 124 pie street Tags: 
 || 
-|| 2 persons listed!
+|| 4 persons listed!
 || ===================================================
 || Enter command: || [Command entered:  clear]
 || Address book has been cleared!

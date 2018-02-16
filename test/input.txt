@@ -90,7 +90,9 @@
 # test sort persons command
 ##########################################################
 
-  # should show persons in alphabetical order
+  # should show persons in ignore case alphabetical order
+  add apple Pie p/99 e/a@p.com a/123 apple street
+  add Apple Pie p/991 e/a@u.com a/124 pie street
   sort
 
 ##########################################################
