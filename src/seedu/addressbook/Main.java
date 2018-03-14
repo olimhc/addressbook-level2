@@ -72,8 +72,9 @@ public class Main {
         }
     }
 
-    /** Prints the Goodbye message and exits. */
+    /** Prints the Tags changes and Goodbye message and exits. */
     private void exit() {
+        addressBook.showTagChanges();
         ui.showGoodbyeMessage();
         System.exit(0);
     }
